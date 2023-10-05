@@ -3,6 +3,7 @@ Codigos do projeto Hackathon
 #há um arquivo pdf explicando o projeto.
 
 #Na pasta backend há um codigo java que executando o main voce simula o cadastro dos participantes do projeto.
+e um arquivo .doc com a explicação e a modelagem uml das classes java
 
 #Na pasta chatBot tem os arquivos json e uma explicação de como será o chat bot que servira para tirar duvidas e ajudar os participantes.
 
