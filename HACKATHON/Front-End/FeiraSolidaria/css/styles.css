@@ -448,7 +448,7 @@ input[type="checkbox"] {
 /*     Navigation     */
 /**********************/
 .navbar {
-    background-color: #c8ff00;
+    background-color: #0ca960;
     font-weight: 600;
     font-size: 0.875rem;
     line-height: 0.875rem;
@@ -461,8 +461,8 @@ input[type="checkbox"] {
 }
 
 .navbar .logo-image img {
-    width: 180px;
-    height: 180px;
+    width: 100%;
+    height: 70px;
 }
 
 .navbar .logo-text {
