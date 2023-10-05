@@ -1,0 +1,40 @@
+Blocos:
+- Language Identify, en2pt e pt2en
+API Key: yEvGFtX7xCO793z1-0NDUUunnGwDVXDeZ4p48qEacRwU
+Service Endpoint: https://api.au-syd.language-translator.watson.cloud.ibm.com/instances/1156c2e0-10ec-494a-91e8-65fa7d8169f5
+
+- WA
+API Key: hDlt_MwXjn8DKUWJ2eG4dASY9i-pl3TCu2Of-wlx6_Gu
+Service Endpoint: https://api.us-south.assistant.watson.cloud.ibm.com/instances/2ed1765c-b6d7-4930-855a-b2fbea496dd1
+Assistant ID: 3225a6c0-6484-4dec-aa9e-f506fc397bab
+
+- STT
+API Key: _DkclfpDkfRBf1yCAhNObSaSWASum8OobO4vQZP92rl7
+Service Endpoint: https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/2e8deb2d-c11f-400d-8e22-9ba109f112df
+
+- TTS
+API Key: L38uQ7ZbhSggikQOQn9MQYqrS8q4ar_KzgSUlVHlyvzL
+Service Endpoint: https://api.au-syd.text-to-speech.watson.cloud.ibm.com/instances/ed712a62-3a39-4981-9e7e-b5cdcc17fab9
+
+- Telegram Receiver/ Sender
+Bot-Name: feira_solidaria_bot
+Token: 6131173028:AAFCe83rkYnWOhNYAFg_0iz7J6C-lints0Y
+
+
+mini-guia de um fluxo da conversa:
+fale que quer saber sobre o projeto
+- o bot passará um resumo falando sobre...
+diga sim ou não para a pergunta dele.
+fale que quer saber como participar do projeto..
+fale se voce é uma pessoa necessitada, ong, benfeitor...
+diga "sim", para saber se em sua cidade já está funcionando o projeto
+digite o nome de sua cidade ex:sao paulo
+digite seu nome ex: erick, Gabriel, Ana.
+digite seu email na formatação certa...(nome@gmail.com)
+
+ele não entende qualquer nome porém tem 44 exemplos de nomes comuns.(n funcionou o codigo regex)
+e ha 10 cidades com seus sinonimos.(sp,rj )
+
+
+na parte de audio ele responde tanto em ingles como em portugues "msm demorando um pouquinho as vezes" e tem q falar com clareza para ele entender kkkk
+

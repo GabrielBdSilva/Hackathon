@@ -1,0 +1,1332 @@
+{
+  "intents": [
+    {
+      "intent": "agricultura_sustentavel",
+      "examples": [
+        {
+          "text": "agricultura sustentável"
+        },
+        {
+          "text": "Como a agricultura sustentável ajuda a preservar os recursos naturais?"
+        },
+        {
+          "text": "Como a agricultura sustentável contribui para a segurança alimentar?"
+        },
+        {
+          "text": "Como a agricultura sustentável contribui para o meio ambiente?"
+        },
+        {
+          "text": "Como a agricultura sustentável promove o desenvolvimento rural?"
+        },
+        {
+          "text": "O que é agricultura sustentável?"
+        },
+        {
+          "text": "O que significa agricultura sustentável?"
+        },
+        {
+          "text": "Quais práticas são adotadas na agricultura sustentável?"
+        },
+        {
+          "text": "Quais são as consequências negativas da agricultura não sustentável?"
+        },
+        {
+          "text": "Quais são as principais diferenças entre a agricultura convencional e a agricultura sustentável?"
+        },
+        {
+          "text": "Quais são os benefícios da agricultura sustentável?"
+        },
+        {
+          "text": "Quais são os critérios para que um sistema agrícola seja considerado sustentável?"
+        },
+        {
+          "text": "Quais são os desafios enfrentados pela agricultura sustentável?"
+        }
+      ],
+      "description": "Explicará oque é agricultura sustentavel"
+    },
+    {
+      "intent": "Encerrar",
+      "examples": [
+        {
+          "text": "Acho que não tenho mais dúvidas. Podemos encerrar a conversa"
+        },
+        {
+          "text": "Acho que não tenho mais perguntas. Podemos encerrar a conversa"
+        },
+        {
+          "text": "Agradeço por todas as informações. Podemos encerrar agora"
+        },
+        {
+          "text": "Agradeço sua ajuda. Podemos finalizar aqui"
+        },
+        {
+          "text": "Encerrar chat"
+        },
+        {
+          "text": "Encerre a conversa!"
+        },
+        {
+          "text": "Estou pronto para concluir nossa conversa. Obrigado"
+        },
+        {
+          "text": "Estou satisfeito com as informações que obtive. Pode encerrar a conversa"
+        },
+        {
+          "text": "finalizar"
+        },
+        {
+          "text": "finalizar conversa agora"
+        },
+        {
+          "text": "Não quero saber mais nada"
+        },
+        {
+          "text": "Não tenho mais nada a perguntar. Pode finalizar a conversa!"
+        },
+        {
+          "text": "Obrigado, é tudo por agora"
+        },
+        {
+          "text": "tchal obrigado por tudo"
+        }
+      ],
+      "description": "percebe que o usuário quer encerrar a conversa e diz uma msg de encerramento"
+    },
+    {
+      "intent": "funcionalidades",
+      "examples": [
+        {
+          "text": "como voce poderia me ajudar"
+        },
+        {
+          "text": "em que pode me ajudar?"
+        },
+        {
+          "text": "me diga oque voce sabe fazer"
+        },
+        {
+          "text": "me diz ai como voce me ajudaria"
+        },
+        {
+          "text": "O bot pode me auxiliar com dúvidas técnicas ou apenas com informações gerais"
+        },
+        {
+          "text": "oque que voce pode responder"
+        },
+        {
+          "text": "oque voce faz?"
+        },
+        {
+          "text": "quais assuntos voce conhece"
+        },
+        {
+          "text": "Quais são as áreas de conhecimento em que o bot é especializado"
+        },
+        {
+          "text": "Quais são as principais funcionalidades do bot?"
+        },
+        {
+          "text": "quais sao suas principais funcionalidades?"
+        },
+        {
+          "text": "Quais tipos de informações o bot está preparado para fornecer?"
+        },
+        {
+          "text": "queria saber oque voce pode fazer e responder para mim"
+        }
+      ],
+      "description": "lista as funcionalidades que o bot tem"
+    },
+    {
+      "intent": "participar",
+      "examples": [
+        {
+          "text": "Como faço para me inscrever como beneficiário do projeto de redistribuição de alimentos?"
+        },
+        {
+          "text": "Como funciona o processo de inscrição para pessoas interessadas em receber alimentos da feira?"
+        },
+        {
+          "text": "Como posso me beneficiar do projeto de redistribuição de alimentos da feira?"
+        },
+        {
+          "text": "Estou interessado em participar do projeto de combate à fome. O que devo fazer para me envolver?"
+        },
+        {
+          "text": "Gostaria de participar da ação. Quais são os passos para me cadastrar?"
+        },
+        {
+          "text": "Quais são as etapas para me cadastrar como barraca participante do projeto?"
+        },
+        {
+          "text": "Quero fazer parte do projeto e receber alimentos. Como posso participar"
+        },
+        {
+          "text": "quero participar do projeto"
+        },
+        {
+          "text": "quero saber como participar"
+        },
+        {
+          "text": "Sou dono de uma barraca de feira e quero contribuir com a ação. Como posso me envolver?"
+        },
+        {
+          "text": "Sou dono de uma barraca de feira e quero participar do projeto. Como faço?"
+        },
+        {
+          "text": "Sou uma ONG e gostaria de participar do projeto"
+        }
+      ],
+      "description": "dá instruções de como participar do projeto"
+    },
+    {
+      "intent": "saudacoes",
+      "examples": [
+        {
+          "text": "boa noite"
+        },
+        {
+          "text": "boa tarde"
+        },
+        {
+          "text": "bom dia"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "Oi, estou precisando de assistência. Você pode me ajudar"
+        },
+        {
+          "text": "Oi, estou precisando de informações"
+        },
+        {
+          "text": "olá"
+        },
+        {
+          "text": "Olá, estou com uma dúvida e gostaria de obter sua ajuda"
+        }
+      ],
+      "description": "Responde saudações"
+    },
+    {
+      "intent": "sobre_ia_generativa",
+      "examples": [
+        {
+          "text": "Como a IA generativa funciona?"
+        },
+        {
+          "text": "Como a IA generativa pode impactar diferentes setores, como arte, música e literatura?"
+        },
+        {
+          "text": "Como a IA generativa pode ser usada na criação de conteúdo?"
+        },
+        {
+          "text": "O que é IA generativa?"
+        },
+        {
+          "text": "Quais são as diferenças entre IA generativa e outros tipos de IA?"
+        },
+        {
+          "text": "Quais são as perspectivas futuras da IA generativa?"
+        },
+        {
+          "text": "Quais são as questões éticas envolvidas na IA generativa?"
+        },
+        {
+          "text": "Quais são as tecnologias utilizadas na IA generativa?"
+        },
+        {
+          "text": "Quais são os benefícios da IA generativa?"
+        },
+        {
+          "text": "Quais são os desafios enfrentados pela IA generativa?"
+        },
+        {
+          "text": "Quais são os exemplos práticos de aplicação da IA generativa?"
+        },
+        {
+          "text": "Quais são os principais usos da IA generativa?"
+        }
+      ],
+      "description": "fala sobre a ia generativa"
+    },
+    {
+      "intent": "sobre_projeto",
+      "examples": [
+        {
+          "text": "como funciona a ação"
+        },
+        {
+          "text": "como funciona o programa"
+        },
+        {
+          "text": "Como funciona o projeto"
+        },
+        {
+          "text": "me de uma explicação de como a ação funciona"
+        },
+        {
+          "text": "me fale de como funciona o projeto"
+        },
+        {
+          "text": "me fale sobre o projeto"
+        },
+        {
+          "text": "me informe sobre o projeto"
+        },
+        {
+          "text": "no que e quem está ação ajuda"
+        },
+        {
+          "text": "oque este movimento propõe"
+        },
+        {
+          "text": "quem pode participar do projeto"
+        },
+        {
+          "text": "queria saber mais dessa ação"
+        },
+        {
+          "text": "quero saber como funciona o projeto"
+        },
+        {
+          "text": "sobre o projeto"
+        }
+      ],
+      "description": "ajudara respondendo duvidas de como funciona o projeto"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cidade",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Belo Horizonte",
+          "synonyms": [
+            "Beagá",
+            "BH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Brasília",
+          "synonyms": [
+            "BSB",
+            "Capital Federal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Curitiba",
+          "synonyms": [
+            "Cidade Modelo",
+            "CWB"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fortaleza",
+          "synonyms": [
+            "FOR",
+            "Terra do Sol"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Manaus",
+          "synonyms": [
+            "Cidade das Águas",
+            "MAO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Porto Alegre",
+          "synonyms": [
+            "Cidade dos Gaúchos",
+            "POA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Recife",
+          "synonyms": [
+            "REC",
+            "Veneza Brasileira"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rio de Janeiro",
+          "synonyms": [
+            "carioca",
+            "rio",
+            "rio de janeiro",
+            "rj"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Salvador",
+          "synonyms": [
+            "SSA",
+            "Terra da Alegria"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "são paulo",
+          "synonyms": [
+            "paulista",
+            "sampa",
+            "sao paulo",
+            "sp"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cpf",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cpf",
+          "patterns": [
+            "^\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{2}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Dia_semana",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "quarta-feira",
+          "synonyms": [
+            "quar",
+            "quarta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "segunda-feira",
+          "synonyms": [
+            "seg",
+            "segunda"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "terça-feira",
+          "synonyms": [
+            "terca",
+            "terça"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\\.)+[A-Za-z]{2,}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "nomes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Adriano",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alice",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alysson",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Andreia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Arthur",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bruno",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Camila",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Carla",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Carolina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Diego",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Eduardo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Erick",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Felipe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fernanda",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gabriel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gustavo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Henrique",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hugo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Isabela",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Isabella",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joao",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Julia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Leonardo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lucas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Luiza",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Manuela",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marcelo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marcos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Maria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Marta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mateus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nathalia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Paulo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rafael",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Renato",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ricardo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Roberto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rodrigo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sabrina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sofia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Thiago",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vanessa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vitor",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "participantes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "beneficiado",
+          "synonyms": [
+            "beneficiado",
+            "necessitado",
+            "ong",
+            "pessoa necessitada",
+            "recebedor",
+            "receber"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "benfeitor",
+          "synonyms": [
+            "benfeitor",
+            "doador",
+            "doar",
+            "dono de barraca",
+            "feirante"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "resposta",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "estou bem",
+          "synonyms": [
+            "alegre",
+            "bem",
+            "bem graças a Deus",
+            "estou bem",
+            "feliz",
+            "muito bem",
+            "otimo",
+            "tudo bem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "estou mau",
+          "synonyms": [
+            "com dor",
+            "horrivel",
+            "infeliz",
+            "mal",
+            "mau",
+            "pessimo",
+            "ruim",
+            "triste",
+            "tudo ruim"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim-não",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": [
+            "n",
+            "negativo",
+            "nem",
+            "no",
+            "nop"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "blz",
+            "gostaria",
+            "ok",
+            "positivo",
+            "quero",
+            "s",
+            "ss"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase, ou tente perguntar sobre o projeto ou como participar da ação."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              },
+              {
+                "text": "Informe claramente oque você deseja"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_4_1685663565874",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor, informe o nome da sua cidade:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1685394704262",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1685394704262",
+      "previous_sibling": "handler_4_1685394704262"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1685394704262",
+      "context": {
+        "cidade": "@cidade"
+      },
+      "conditions": "@cidade",
+      "event_name": "input",
+      "dialog_node": "handler_4_1685394704262"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1685394868945",
+      "context": {
+        "email": "@email.literal"
+      },
+      "conditions": "@email",
+      "event_name": "input",
+      "dialog_node": "handler_4_1685394868945"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ótimo! Agora, informe apenas seu nome:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1685390182687",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1685390182713",
+      "previous_sibling": "handler_9_1685390182713"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado, $nomes. Por fim, informe seu endereço de e-mail."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1685394868945",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1685394868945",
+      "previous_sibling": "handler_4_1685394868945"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1685390182687",
+      "context": {
+        "nomes": "@nomes"
+      },
+      "conditions": "@nomes",
+      "event_name": "input",
+      "dialog_node": "handler_9_1685390182713"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que bom! Mesmo sendo um bot, Fico feliz por Você  ;-;"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1685664167012",
+      "conditions": "@resposta:(estou bem)",
+      "dialog_node": "node_1_1685664548275"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A IA generativa é uma área da inteligência artificial que se concentra em sistemas capazes de criar conteúdo original. Ela funciona por meio de algoritmos que analisam padrões e exemplos, permitindo que a IA gere informações novas e autônomas. A IA generativa tem aplicações diversas, desde a criação de arte e música até a geração de textos e imagens. Ela apresenta benefícios significativos, como a capacidade de estimular a criatividade e fornecer soluções inovadoras. No entanto, também enfrenta desafios, como a necessidade de garantir a ética e a responsabilidade em sua utilização. O futuro da IA generativa é promissor, com avanços tecnológicos contínuos e um potencial impacto positivo em diversos setores."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#sobre_ia_generativa",
+      "dialog_node": "node_1_1686098509722",
+      "previous_sibling": "node_8_1685664167012"
+    },
+    {
+      "type": "standard",
+      "title": "benfeitor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primeiramente obrigado por querer participar você estará ajudando muitas famílias!\nPara participar como Doador você precisa ir nessa aba do site (https://feirasoliadaria.com/participante/benfeitor) lá você se cadastrará preenchendo o formulário e após as etapas do cadastro você recebera mais informações de como funciona está ação para erradicar a fome e o desperdício no mundo.\n\nVocê gostaria de saber se o projeto já está funcionando em sua Cidade?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685361689451",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1685389987377"
+      },
+      "conditions": "@participantes:benfeitor",
+      "dialog_node": "node_2_1685364320032"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agradecemos seu interesse no projeto Compartilhe com seus amigos para ganharmos mais visibilidade e consequentemente ajudar mais Pessoas!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685361689451",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@sim-não:não",
+      "dialog_node": "node_2_1685394530339",
+      "previous_sibling": "node_5_1685389987377"
+    },
+    {
+      "type": "standard",
+      "title": "fala sobre as funcionalidade do bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Obrigado pelo seu interesse no nosso projeto. Meu objetivo é fornecer informações gerais sobre o projeto, cumprimentá-lo, encerrar a conversa quando necessário e explicar como você pode participar do projeto.\n\nPara falar sobre o projeto, posso fornecer uma visão geral basta dizer \"me informe sobre o projeto\"\nQuando você quiser encerrar a conversa, basta me informar e eu encerrarei a interação.\nSe você estiver interessado em participar do projeto, posso fornecer orientações sobre como se envolver. basta dizer \"Quero saber como participar\"\ne também te dou um resumo sobre o que é ia generativa ou agricultura sustentável"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#funcionalidades",
+      "dialog_node": "node_2_1685665454660",
+      "previous_sibling": "node_3_1686097717515"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre Projeto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O projeto, chamado \"Feira Solidária\", combate a fome e promove a solidariedade através da redistribuição de alimentos excedentes de feiras. Barracas de feira cadastram alimentos disponíveis para doação. Pessoas necessitadas agendam a retirada desses alimentos. ONGs também participam. Ajude a evitar desperdícios, fornecendo alimentos saudáveis e fortalecendo a solidariedade. Quer um detalhamento maior sobre o projeto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#sobre_projeto",
+      "dialog_node": "node_3_1685361106982",
+      "previous_sibling": "node_2_1685665454660"
+    },
+    {
+      "type": "standard",
+      "title": "Participar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você gostaria de participar como um Benfeitor(dono de barraca, doador) ou como Beneficiado (Pessoa necessitada ou ong)?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#participar",
+      "dialog_node": "node_3_1685361689451",
+      "previous_sibling": "node_4_1685365521468"
+    },
+    {
+      "type": "standard",
+      "title": "sobre agricultura sustentável",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\nA agricultura sustentável é um sistema de produção agrícola que equilibra a produção de alimentos, a preservação dos recursos naturais e a proteção do meio ambiente. Ela busca minimizar o uso de produtos químicos, preservar o solo, utilizar água de forma eficiente, proteger a biodiversidade e melhorar a qualidade dos alimentos. A agricultura sustentável contribui para um futuro mais saudável e sustentável, promovendo práticas como rotação de culturas, uso de fertilizantes orgânicos e respeito às comunidades rurais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#agricultura_sustentavel",
+      "dialog_node": "node_3_1686097717515",
+      "previous_sibling": "node_1_1686098509722"
+    },
+    {
+      "type": "standard",
+      "title": "beneficiado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para participar como Beneficiado será necessário comprovar sua situação de necessitado, \n desempregado ou ong, vá nessa parte do site:(https://feirasoliadaria.com/participante/beneficiado), lá encontrará mais informações e fará todas etapas do cadastro!\n\nVocê gostaria de saber se o projeto já está funcionando em sua Cidade?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685361689451",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1685389987377"
+      },
+      "conditions": "@participantes:beneficiado",
+      "dialog_node": "node_4_1685363725075",
+      "previous_sibling": "node_2_1685364320032"
+    },
+    {
+      "type": "standard",
+      "title": "participar como beneficiado",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1685363725075"
+      },
+      "conditions": "#participar && @participantes:beneficiado",
+      "dialog_node": "node_4_1685365521468",
+      "previous_sibling": "node_5_1685365415111"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado pelo interesse no projeto, caso queira saber como participar é só perguntar :-)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685361106982",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@sim-não:não",
+      "dialog_node": "node_4_1685396330557",
+      "previous_sibling": "node_7_1685361573899"
+    },
+    {
+      "type": "standard",
+      "title": "Finalizar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado pelo interesse no projeto, conversa encerrada!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Encerrar",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1685663565874",
+      "previous_sibling": "node_3_1685361689451"
+    },
+    {
+      "type": "standard",
+      "title": "participar como benfeitor",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1685364320032"
+      },
+      "conditions": "#participar && @participantes:benfeitor",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1685365415111",
+      "previous_sibling": "node_3_1685361106982"
+    },
+    {
+      "type": "frame",
+      "title": "saber onde o projeto funciona",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito, $nomes. Obrigado por seu interesse no projeto. Infelizmente, o projeto ainda não está ativo em $cidade, mas assim que iniciarmos na sua cidade, entraremos em contato através do e-mail $email, fornecendo informações sobre como se cadastrar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685361689451",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@sim-não:sim",
+      "dialog_node": "node_5_1685389987377",
+      "previous_sibling": "node_4_1685363725075"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O projeto, chamado \"Feira Solidária\", é uma iniciativa que visa combater a fome e promover a solidariedade por meio da redistribuição de alimentos excedentes de feiras. Ele é aberto para a participação de barracas de feira, pessoas necessitadas e organizações não governamentais (ONGs).\n\nO projeto funciona de forma simples e eficiente. As barracas de feira que possuem alimentos em boas condições e que não serão vendidos ou doados ao final da feira podem se cadastrar no nosso site. Elas atualizam o status de suas barracas, indicando que possuem alimentos disponíveis para doação.\n\nAs pessoas necessitadas também podem se cadastrar no site, comprovando sua situação de desemprego ou necessidade. Elas podem visualizar as barracas com status ativo no mapa da feira e agendar a retirada dos alimentos. Por exemplo, elas podem selecionar uma barraca e marcar um horário para buscar uma quantidade específica de alimentos.\n\nAs ONGs também podem se cadastrar e receber uma quantidade maior de alimentos para distribuir entre as pessoas necessitadas que elas atendem.\n\nEssa ação tem como objetivo principal evitar o desperdício de alimentos e promover a alimentação de pessoas em situação de vulnerabilidade. Além disso, o projeto estimula a solidariedade e a consciência sobre a importância de combater a fome.\n\nAo participar desse movimento, você estará contribuindo para a redução do desperdício, ajudando pessoas necessitadas a terem acesso a alimentos saudáveis e fortalecendo a solidariedade em nossa comunidade.\n\nObrigado pelo interesse no projeto, caso queira saber como participar é só perguntar :-)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685361106982",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@sim-não:sim",
+      "dialog_node": "node_7_1685361573899"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá como vai??? fique a vontade para me fazer perguntas!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#saudacoes",
+      "dialog_node": "node_8_1685664167012",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que pena! Espero que melhore :-("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1685664167012",
+      "conditions": "@resposta:(estou mau)",
+      "dialog_node": "node_9_1685664628236",
+      "previous_sibling": "node_1_1685664548275"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1685389987377",
+      "disabled": true,
+      "dialog_node": "response_2_1685395334911"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1685389987377",
+      "variable": "$email",
+      "dialog_node": "slot_4_1685394868945",
+      "previous_sibling": "slot_8_1685390182687"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1685389987377",
+      "variable": "$cidade",
+      "dialog_node": "slot_6_1685394704262",
+      "previous_sibling": "response_2_1685395334911"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1685389987377",
+      "variable": "$nomes",
+      "dialog_node": "slot_8_1685390182687",
+      "previous_sibling": "slot_6_1685394704262"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "BotGS-dialog"
+}
