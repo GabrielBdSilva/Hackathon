@@ -5,7 +5,7 @@ Codigos do projeto Hackathon
 #Na pasta backend há um codigo java que executando o main voce simula o cadastro dos participantes do projeto.
 e um arquivo .doc com a explicação e a modelagem uml das classes java
 
-#Na pasta chatBot tem os arquivos json e uma explicação de como será o chat bot que servira para tirar duvidas e ajudar os participantes.
+#Na pasta chatBot tem os arquivos json e uma explicação de como será utilizado o chat bot que servira para tirar duvidas e ajudar os participantes.
 
 #Na pasta dados há uma modelagem de como será o banco de dados do projeto com suas tabelas e o modelo fisico "Oracle DB".
 
